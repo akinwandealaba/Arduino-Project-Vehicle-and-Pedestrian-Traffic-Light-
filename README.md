@@ -1,12 +1,12 @@
-// Arduino-Project-Vehicle-and-Pedestrian-Traffic-Light-
-// I am new in the block and this is my first project to be uploaded here
+# // Arduino-Project-Vehicle-and-Pedestrian-Traffic-Light-
+# // I am new in the block and this is my first project to be uploaded here
 
-#define BUTTON_PIN 2 // Pin of Traffic Button for Pedestrain
-#define G_LED 10     // Pin of Green traffic light for vehicle
-#define Y_LED 11     // Pin of Yellow traffic light for vehicle
-#define R_LED 12     // Pin of Red traffic light for vehicle
-#define G_PEDST_LED 8   //Pin of Green Traffic light for Pedestrain
-#define R_PEDST_LED 9    //Pin of Red Traffic light for Pedestrain
+# #define BUTTON_PIN 2 // Pin of Traffic Button for Pedestrain
+# #define G_LED 10     // Pin of Green traffic light for vehicle
+# #define Y_LED 11     // Pin of Yellow traffic light for vehicle
+# #define R_LED 12     // Pin of Red traffic light for vehicle
+# #define G_PEDST_LED 8   //Pin of Green Traffic light for Pedestrain
+# #define R_PEDST_LED 9    //Pin of Red Traffic light for Pedestrain
 
 
 //flag for interrupt (state: signal from traffic button for pedestrain initially set as LOW = 0) 
